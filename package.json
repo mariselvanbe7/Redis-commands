@@ -1,0 +1,21 @@
+{
+   "dependencies": {
+      "@types/node": "^18.11.0",
+      "dotenv": "^16.0.3",
+      "mysql": "^2.18.1",
+      "pg": "^8.4.0",
+      "redis": "^4.3.1",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "^0.3.10",
+      "typescript": "^4.8.4"
+   },
+   "scripts": {
+      "typeorm": "typeorm-ts-node-commonjs",
+      "start": "ts-node redis.ts"
+   },
+   "devDependencies": {
+      "@types/node": "^16.11.10",
+      "ts-node": "10.7.0",
+      "typescript": "4.5.2"
+   }
+}
